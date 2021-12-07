@@ -14,7 +14,7 @@ module "my_ec2" {
 
   # so it will use the 
   source        = "../modules/ec2_module"
-  instance_type = "t2.large"
+  instance_type = "t2.small"
 
   /*Over in our modules folder, inside of var.tf file we declared this variable but did not define it
 # we declare the variable name here in var.tf but we do not define it
